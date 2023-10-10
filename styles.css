@@ -1,0 +1,86 @@
+.card {
+    position: relative;
+    display: flex;
+    width: 35%;
+    height: auto;
+}
+
+.card-back {
+    position: absolute;
+    width: 23em;
+    filter: brightness(60%);
+    border-radius: 15px;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card-chip{
+    position: absolute;
+    width: 3.5em;
+    border-radius: 10px;
+    display: block;
+    left: 50%;
+    top: 0%;
+    align-self: center;
+    transform: translate(-310%, 60%);
+}
+
+.card-visa{
+    position: absolute;
+    width: 5em;
+    display: block;
+    left: 50%;
+    top: 0%;
+    transform: translate(+120%, 80%);
+}
+.card-number{
+    position: absolute;
+    font-family: 'Source Code Pro', bold;
+    font-size: 1.2em;
+    color: azure;
+    display: block;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, +80%);
+}
+.card-holder{
+    position: absolute;
+    font-family: 'Source Code Pro light';
+    font-size: 0.5em;
+    color: azure;
+    display: block;
+    left: 50%;
+    top: 0%;
+    transform: translate(-200%, 530%);
+}
+.card-expires{
+    position: absolute;
+    font-family: 'Source Code Pro light';
+    font-size: 0.5em;
+    color: azure;
+    display: block;
+    left: 50%;
+    top: 0%;
+    transform: translate(200%, 530%);
+}
+.card-name{
+    position: absolute;
+    font-family: 'Source Code Pro', bold;
+    font-size: 0.8em;
+    color: azure;
+    display: block;
+    left: 50%;
+    top: 0%;
+    transform: translate(-155%, 360%);
+}
+.card-date{
+    position: absolute;
+    font-family: 'Source Code Pro', bold;
+    font-size: 0.8em;
+    color: azure;
+    display: block;
+    left: 50%;
+    top: 0%;
+    transform: translate(180%, 360%);
+}
