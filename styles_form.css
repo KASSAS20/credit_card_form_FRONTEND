@@ -109,3 +109,25 @@ input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-o
     transform: translate(25%, -50%);
 
 }
+
+.submit{
+    position: absolute;
+    display: block;
+    width: 30em;
+    height: 4em;
+    border-radius: 8px;
+    border-style: hidden;
+    
+    background-color: #2364d2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+}
+.text-submit {
+    font-size: 1.7em;
+    font-family: 'Source Code Pro';
+    color: azure;
+    top: 50%;
+    left: 50%;
+    transform: translate(150%, 53.5%);
+}
