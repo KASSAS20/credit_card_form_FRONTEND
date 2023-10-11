@@ -1,3 +1,7 @@
+body {
+    background-image: linear-gradient(to right, #b9b1ff, #e7e3ee);
+}
+
 .card {
     position: relative;
     display: flex;
@@ -12,7 +16,9 @@
     border-radius: 15px;
     display: block;
     left: 50%;
-    transform: translateX(-50%);
+    top: 0%;
+    transform: translate(-50%, 8%);
+    
 }
 
 .card-chip{
@@ -49,6 +55,7 @@
     font-family: 'Source Code Pro light';
     font-size: 0.5em;
     color: azure;
+    filter: brightness(70%);
     display: block;
     left: 50%;
     top: 0%;
@@ -59,6 +66,7 @@
     font-family: 'Source Code Pro light';
     font-size: 0.5em;
     color: azure;
+    filter: brightness(70%);
     display: block;
     left: 50%;
     top: 0%;
@@ -68,6 +76,7 @@
     position: absolute;
     font-family: 'Source Code Pro', bold;
     font-size: 0.8em;
+    filter: brightness(85%);
     color: azure;
     display: block;
     left: 50%;
@@ -79,6 +88,7 @@
     font-family: 'Source Code Pro', bold;
     font-size: 0.8em;
     color: azure;
+    filter: brightness(85%);
     display: block;
     left: 50%;
     top: 0%;

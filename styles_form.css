@@ -1,0 +1,111 @@
+
+.form {
+    position: relative;
+    display: flex;
+    width: 25em;
+    height: 40em;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, 20%);
+    background-color: rgba(255, 255, 255, 0.918);
+    border-radius: 15px;
+    font-family: 'Source Code Pro light';
+    font-size: 1.2em;
+}
+
+.form-card-holders input, .form-card-number input {
+    width: 30em;
+    height: 3em;
+    border-radius: 8px;
+    border-style:groove;
+    border-color:rgba(41, 41, 41, 0.425);
+    font-family: 'Source Code Pro';
+    margin-top: 0%;
+}
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.form-card-number{
+    position: absolute;
+    display: block;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 140%);
+    font-size: 0.9em;
+}
+
+
+.form-card-holders {
+    position: absolute;
+    display: block;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 240%);
+    font-size: 0.9em;
+}
+
+.form-card-number h5, .form-card-holders h5{
+    margin-bottom: 5px;
+}
+.form-text-date{
+    position: absolute;
+    display: block;
+    font-size: 0.9em;
+    left: 50%;
+    top: 50%;
+    transform: translate(-170%, -100%);
+}
+.form-text-cvv{
+    position: absolute;
+    display: block;
+    font-size: 0.9em;
+    left: 50%;
+    top: 50%;
+    transform: translate(170%, -100%);
+}
+
+.form-date-month select{
+    position: absolute;
+    display: block;
+    width: 6em;
+    height: 2em;
+    border-radius: 8px;
+    border-style: groove;
+    border-color: rgba(41, 41, 41, 0.425);
+    font-size: 1em;
+    left: 50%;
+    top: 40%;
+    transform: translate(-176%, 150%);
+}
+
+.form-date-years select{
+    position: absolute;
+    display: block;
+    width: 6em;
+    height: 2em;
+    border-radius: 8px;
+    border-style: groove;
+    border-color: rgba(41, 41, 41, 0.425);
+    font-size: 1em;
+    left: 50%;
+    top: 40%;
+    transform: translate(-70%, 150%);
+}
+.form-cvv input{
+    position: absolute;
+    display: block;
+    width: 11.6em;
+    height: 2.5em;
+    border-radius: 8px;
+    border-style:groove;
+    border-color: rgba(41, 41, 41, 0.425);
+    font-family: 'Source Code Pro';
+    margin-top: 0%;
+    left: 50%;
+    top: 50%;
+    transform: translate(25%, -50%);
+
+}
